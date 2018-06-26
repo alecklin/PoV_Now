@@ -12,7 +12,7 @@
         <last_activity>2018-06-26 23:05:55</last_activity>
         <name>PoV Tasks by State</name>
         <photo/>
-        <public_group>false</public_group>
+        <public_group>true</public_group>
         <short_description/>
         <sys_class_name>live_group_profile</sys_class_name>
         <sys_created_by>aleck.lin</sys_created_by>
@@ -20,12 +20,12 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0c4e93b3dbfad3407b7990b6db961968</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>aleck.lin</sys_updated_by>
-        <sys_updated_on>2018-06-26 23:05:55</sys_updated_on>
+        <sys_updated_on>2018-06-26 23:11:21</sys_updated_on>
         <table>vtb_board</table>
         <type>group</type>
-        <visible_group>false</visible_group>
+        <visible_group>true</visible_group>
     </live_group_profile>
 </record_update>
 ]]></payload>
@@ -33,14 +33,14 @@
         <sys_created_by>aleck.lin</sys_created_by>
         <sys_created_on>2018-06-26 23:06:59</sys_created_on>
         <sys_id>b77ed7b3dbfad3407b7990b6db961947</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>PoV Tasks by State</sys_name>
         <sys_package display_value="PoV_Now" source="x_snc_pov_now">7995d23f4ffe9f008c81efd18110c76c</sys_package>
         <sys_policy/>
         <sys_scope display_value="PoV_Now">7995d23f4ffe9f008c81efd18110c76c</sys_scope>
         <sys_update_name>sys_metadata_link_b77ed7b3dbfad3407b7990b6db961947</sys_update_name>
         <sys_updated_by>aleck.lin</sys_updated_by>
-        <sys_updated_on>2018-06-26 23:06:59</sys_updated_on>
+        <sys_updated_on>2018-06-26 23:11:37</sys_updated_on>
         <tablename>live_group_profile</tablename>
     </sys_metadata_link>
 </record_update>
