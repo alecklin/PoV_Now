@@ -45,7 +45,7 @@
         <opened_by display_value="Aleck Lin">f615d7f4dbb1b200e99852f4ce961943</opened_by>
         <order/>
         <parent/>
-        <pov_task_template display_value="Discovery">5b1c0777373e17403a689c4683990ef7</pov_task_template>
+        <pov_task_template display_value="Discovery">dc12af77dbfad3407b7990b6db961959</pov_task_template>
         <priority>4</priority>
         <reassignment_count>0</reassignment_count>
         <rejection_goto/>
@@ -60,9 +60,9 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c131af37dbfad3407b7990b6db961908</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>aleck.lin</sys_updated_by>
-        <sys_updated_on>2018-06-26 23:18:54</sys_updated_on>
+        <sys_updated_on>2018-06-26 23:22:49</sys_updated_on>
         <time_worked/>
         <upon_approval>proceed</upon_approval>
         <upon_reject>cancel</upon_reject>
@@ -82,14 +82,14 @@
         <sys_created_by>aleck.lin</sys_created_by>
         <sys_created_on>2018-06-26 23:20:04</sys_created_on>
         <sys_id>e371a377dbfad3407b7990b6db9619a1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>TASK0024368</sys_name>
         <sys_package display_value="PoV_Now" source="x_snc_pov_now">7995d23f4ffe9f008c81efd18110c76c</sys_package>
         <sys_policy/>
         <sys_scope display_value="PoV_Now">7995d23f4ffe9f008c81efd18110c76c</sys_scope>
         <sys_update_name>sys_metadata_link_e371a377dbfad3407b7990b6db9619a1</sys_update_name>
         <sys_updated_by>aleck.lin</sys_updated_by>
-        <sys_updated_on>2018-06-26 23:20:04</sys_updated_on>
+        <sys_updated_on>2018-06-26 23:22:57</sys_updated_on>
         <tablename>x_snc_pov_now_template_pov_task</tablename>
     </sys_metadata_link>
 </record_update>
