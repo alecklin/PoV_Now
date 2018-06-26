@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="PoV Now">70bfd277377a17403a689c4683990eed</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>PoV Now</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_snc_pov_now_pov_task</name>
+        <order>200</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>$vtb.do?sysparm_board=ac90a6f7377a17403a689c4683990e68</query>
+        <report/>
+        <roles>x_snc_pov_now.PoV_Now</roles>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>aleck.lin</sys_created_by>
+        <sys_created_on>2018-06-26 18:41:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ffc1aa7b377a17403a689c4683990e1d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Visual Task Board</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PoV_Now" source="x_snc_pov_now">7995d23f4ffe9f008c81efd18110c76c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PoV_Now">7995d23f4ffe9f008c81efd18110c76c</sys_scope>
+        <sys_update_name>sys_app_module_ffc1aa7b377a17403a689c4683990e1d</sys_update_name>
+        <sys_updated_by>aleck.lin</sys_updated_by>
+        <sys_updated_on>2018-06-26 18:54:08</sys_updated_on>
+        <timeline_page/>
+        <title>Visual Task Board</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

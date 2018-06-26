@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_snc_pov_now.PoV_Now" name="x_snc_pov_now.PoV_Now">e95716733732d340c6ea7de543990eb7</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>jason.smith</sys_created_by>
+        <sys_created_on>2018-06-26 17:56:46</sys_created_on>
+        <sys_id>af771a733732d340c6ea7de543990eb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>e95716733732d340c6ea7de543990eb7</sys_name>
+        <sys_package display_value="PoV_Now" source="x_snc_pov_now">7995d23f4ffe9f008c81efd18110c76c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PoV_Now">7995d23f4ffe9f008c81efd18110c76c</sys_scope>
+        <sys_update_name>sys_embedded_help_role_af771a733732d340c6ea7de543990eb4</sys_update_name>
+        <sys_updated_by>jason.smith</sys_updated_by>
+        <sys_updated_on>2018-06-26 17:56:46</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

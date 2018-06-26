@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="PoV Task" max_length="40" name="x_snc_pov_now_pov_task" type="collection">
+        <element choice="1" label="Category" max_length="40" name="category" type="string">
+            <choice>
+                <element label="Configuration" value="Configuration"/>
+                <element label="Connectivity" value="Connectivity"/>
+                <element label="Credentials" value="Credentials"/>
+                <element label="Documentation" value="Documentation"/>
+            </choice>
+        </element>
+    </element>
+</database>
