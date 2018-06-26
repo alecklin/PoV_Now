@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Template PoV Task" max_length="40" name="x_snc_pov_now_template_pov_task" type="collection">
+        <element label="PoV Task Template" max_length="32" name="pov_task_template" reference="x_snc_pov_now_pov_task_template" type="reference"/>
+    </element>
+</database>

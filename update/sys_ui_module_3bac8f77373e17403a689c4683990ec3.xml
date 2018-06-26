@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="PoV Now">e3ac8f77373e17403a689c4683990ec1</application>
+        <filter/>
+        <name>Template PoV Tasks</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_snc_pov_now.PoV_Now</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>aleck.lin</sys_created_by>
+        <sys_created_on>2018-06-26 21:49:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3bac8f77373e17403a689c4683990ec3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Template PoV Tasks</sys_name>
+        <sys_package display_value="PoV_Now" source="x_snc_pov_now">7995d23f4ffe9f008c81efd18110c76c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PoV_Now">7995d23f4ffe9f008c81efd18110c76c</sys_scope>
+        <sys_update_name>sys_ui_module_3bac8f77373e17403a689c4683990ec3</sys_update_name>
+        <sys_updated_by>aleck.lin</sys_updated_by>
+        <sys_updated_on>2018-06-26 21:49:09</sys_updated_on>
+        <table>x_snc_pov_now_template_pov_task</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

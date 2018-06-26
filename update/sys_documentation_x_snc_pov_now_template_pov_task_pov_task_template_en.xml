@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="pov_task_template" label="PoV Task Template" language="en" table="x_snc_pov_now_template_pov_task">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>pov_task_template</element>
+            <help/>
+            <hint/>
+            <label>PoV Task Template</label>
+            <language>en</language>
+            <name>x_snc_pov_now_template_pov_task</name>
+            <plural>PoV Task Templates</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>aleck.lin</sys_created_by>
+            <sys_created_on>2018-06-26 21:49:11</sys_created_on>
+            <sys_id>40bccf77373e17403a689c4683990e31</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>PoV Task Template</sys_name>
+            <sys_package display_value="PoV_Now" source="x_snc_pov_now">7995d23f4ffe9f008c81efd18110c76c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="PoV_Now">7995d23f4ffe9f008c81efd18110c76c</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_pov_now_template_pov_task_pov_task_template_en</sys_update_name>
+            <sys_updated_by>aleck.lin</sys_updated_by>
+            <sys_updated_on>2018-06-26 21:49:11</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

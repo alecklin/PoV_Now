@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>false</form_button>
+        <form_context_menu>false</form_context_menu>
+        <form_link>true</form_link>
+        <form_style/>
+        <hint/>
+        <list_action>true</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>true</list_choice>
+        <list_context_menu>true</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Apply Template</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[(function() {
+	var gr = new GlideRecord("x_snc_pov_now_template_pov_task");
+	gr.addQuery("pov_task_template", current.sys_id);
+	gr.query();
+	while (gr.next()) {
+		var grr = new GlideRecord("x_snc_pov_now_pov_task");
+		for (var propertyName in gr) {
+//gs.info("propertyName is " + propertyName);
+			if (propertyName.toString().indexOf('sys_') > -1)
+				continue;
+			
+			if (propertyName.toString() == "number")
+				continue;
+				 
+			grr[propertyName] = gr[propertyName];
+		 }
+
+		grr.insert();		
+	}
+	
+}());]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>aleck.lin</sys_created_by>
+        <sys_created_on>2018-06-26 21:58:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8c6ec37b373e17403a689c4683990e15</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Apply Template</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PoV_Now" source="x_snc_pov_now">7995d23f4ffe9f008c81efd18110c76c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PoV_Now">7995d23f4ffe9f008c81efd18110c76c</sys_scope>
+        <sys_update_name>sys_ui_action_8c6ec37b373e17403a689c4683990e15</sys_update_name>
+        <sys_updated_by>aleck.lin</sys_updated_by>
+        <sys_updated_on>2018-06-26 22:13:48</sys_updated_on>
+        <table>x_snc_pov_now_pov_task_template</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>true</ui16_compatible>
+    </sys_ui_action>
+</record_update>

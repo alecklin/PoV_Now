@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="update_synch=true" extends="sys_metadata" label="PoV Task Template" max_length="40" name="x_snc_pov_now_pov_task_template" type="collection">
+        <element label="Name" max_length="40" name="name" type="string"/>
+    </element>
+</database>
