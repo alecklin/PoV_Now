@@ -18,7 +18,7 @@
         <number_ref display_value="POV">f70952f33732d340c6ea7de543990ecb</number_ref>
         <provider_class/>
         <read_access>true</read_access>
-        <super_class display_value="Task" name="task">48e3f37714211300651763392430a4cb</super_class>
+        <super_class display_value="Task" name="task">fd253ff9db9303009769df7b5e96193d</super_class>
         <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_class_path/>

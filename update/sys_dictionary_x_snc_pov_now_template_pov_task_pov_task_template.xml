@@ -54,15 +54,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>aleck.lin</sys_created_by>
         <sys_created_on>2018-06-26 21:49:08</sys_created_on>
-        <sys_id>133cc777373e17403a689c4683990e54</sys_id>
+        <sys_id>fb6c57bbdbbad3407b7990b6db961965</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>PoV Task Template</sys_name>
         <sys_package display_value="PoV_Now" source="x_snc_pov_now">7995d23f4ffe9f008c81efd18110c76c</sys_package>
         <sys_policy/>
         <sys_scope display_value="PoV_Now">7995d23f4ffe9f008c81efd18110c76c</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_pov_now_template_pov_task_pov_task_template</sys_update_name>
-        <sys_updated_by>aleck.lin</sys_updated_by>
-        <sys_updated_on>2018-06-26 21:49:08</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-06-26 22:58:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

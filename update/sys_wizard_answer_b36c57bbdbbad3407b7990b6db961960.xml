@@ -2,11 +2,11 @@
 <record_update table="sys_wizard_answer">
     <sys_wizard_answer action="INSERT_OR_UPDATE">
         <active>true</active>
-        <answer>PoV Task</answer>
+        <answer>Template PoV Task</answer>
         <button_label/>
         <dependent_value/>
         <element/>
-        <name>PoV Task</name>
+        <name>Template PoV Task</name>
         <next_question/>
         <order>100</order>
         <payload_name/>
@@ -14,19 +14,19 @@
         <roles/>
         <script/>
         <sys_class_name>sys_wizard_answer</sys_class_name>
-        <sys_created_by>jason.smith</sys_created_by>
-        <sys_created_on>2018-06-26 18:03:35</sys_created_on>
-        <sys_id>d70952f33732d340c6ea7de543990e40</sys_id>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-06-26 22:57:58</sys_created_on>
+        <sys_id>b36c57bbdbbad3407b7990b6db961960</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>PoV Task</sys_name>
+        <sys_name>Template PoV Task</sys_name>
         <sys_package display_value="PoV_Now" source="x_snc_pov_now">7995d23f4ffe9f008c81efd18110c76c</sys_package>
         <sys_policy/>
         <sys_scope display_value="PoV_Now">7995d23f4ffe9f008c81efd18110c76c</sys_scope>
-        <sys_update_name>sys_wizard_answer_d70952f33732d340c6ea7de543990e40</sys_update_name>
-        <sys_updated_by>jason.smith</sys_updated_by>
-        <sys_updated_on>2018-06-26 18:03:35</sys_updated_on>
+        <sys_update_name>sys_wizard_answer_b36c57bbdbbad3407b7990b6db961960</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-06-26 22:57:58</sys_updated_on>
         <table/>
-        <target_url>x_snc_pov_now_pov_task.do</target_url>
+        <target_url>x_snc_pov_now_template_pov_task.do</target_url>
         <type>1</type>
     </sys_wizard_answer>
 </record_update>

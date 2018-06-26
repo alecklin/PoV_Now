@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>23cc9fbfdbbad3407b7990b6db9619d3</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="vtb_board">
+    <vtb_board action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <assignment_group/>
+        <background_color>vtb-board-color-1</background_color>
+        <card_limit>1000</card_limit>
+        <comments/>
+        <field>state</field>
+        <filter/>
+        <label_1>Defect</label_1>
+        <label_1_active>true</label_1_active>
+        <label_2>High Priority</label_2>
+        <label_2_active>true</label_2_active>
+        <label_3>Feature</label_3>
+        <label_3_active>true</label_3_active>
+        <label_4>Idea</label_4>
+        <label_4_active>true</label_4_active>
+        <label_5>Request</label_5>
+        <label_5_active>true</label_5_active>
+        <last_synchronized>2018-06-26 23:00:13</last_synchronized>
+        <list_view_name/>
+        <name>PoV Tasks by State</name>
+        <owner display_value="Aleck Lin">f615d7f4dbb1b200e99852f4ce961943</owner>
+        <readable_filter/>
+        <show_board_picker>true</show_board_picker>
+        <show_labels>false</show_labels>
+        <show_list_toggle>true</show_list_toggle>
+        <stream_limit>50</stream_limit>
+        <sys_created_by>aleck.lin</sys_created_by>
+        <sys_created_on>2018-06-26 22:59:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>23cc9fbfdbbad3407b7990b6db9619d3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>aleck.lin</sys_updated_by>
+        <sys_updated_on>2018-06-26 23:00:13</sys_updated_on>
+        <table>x_snc_pov_now_pov_task</table>
+    </vtb_board>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>aleck.lin</sys_created_by>
+        <sys_created_on>2018-06-26 23:01:07</sys_created_on>
+        <sys_id>3d2d1f33dbfad3407b7990b6db961901</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PoV Tasks by State</sys_name>
+        <sys_package display_value="PoV_Now" source="x_snc_pov_now">7995d23f4ffe9f008c81efd18110c76c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PoV_Now">7995d23f4ffe9f008c81efd18110c76c</sys_scope>
+        <sys_update_name>sys_metadata_link_3d2d1f33dbfad3407b7990b6db961901</sys_update_name>
+        <sys_updated_by>aleck.lin</sys_updated_by>
+        <sys_updated_on>2018-06-26 23:01:07</sys_updated_on>
+        <tablename>vtb_board</tablename>
+    </sys_metadata_link>
+</record_update>

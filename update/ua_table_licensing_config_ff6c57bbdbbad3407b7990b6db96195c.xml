@@ -5,22 +5,22 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_snc_pov_now_template_pov_task</name>
+        <name>x_snc_pov_now_pov_task_template</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
         <owner_condition/>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>aleck.lin</sys_created_by>
-        <sys_created_on>2018-06-26 21:49:11</sys_created_on>
-        <sys_id>98bccf77373e17403a689c4683990e35</sys_id>
+        <sys_created_on>2018-06-26 20:00:13</sys_created_on>
+        <sys_id>ff6c57bbdbbad3407b7990b6db96195c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_snc_pov_now_template_pov_task</sys_name>
+        <sys_name>x_snc_pov_now_pov_task_template</sys_name>
         <sys_package display_value="PoV_Now" source="x_snc_pov_now">7995d23f4ffe9f008c81efd18110c76c</sys_package>
         <sys_policy/>
         <sys_scope display_value="PoV_Now">7995d23f4ffe9f008c81efd18110c76c</sys_scope>
-        <sys_update_name>ua_table_licensing_config_98bccf77373e17403a689c4683990e35</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_ff6c57bbdbbad3407b7990b6db96195c</sys_update_name>
         <sys_updated_by>aleck.lin</sys_updated_by>
-        <sys_updated_on>2018-06-26 21:49:11</sys_updated_on>
+        <sys_updated_on>2018-06-26 20:00:13</sys_updated_on>
     </ua_table_licensing_config>
 </record_update>
