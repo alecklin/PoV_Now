@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>1262bf37db3ed3407b7990b6db961917</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="x_snc_pov_now_template_pov_task">
+    <x_snc_pov_now_template_pov_task action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_due/>
+        <additional_assignee_list/>
+        <approval>not requested</approval>
+        <approval_history/>
+        <approval_set/>
+        <assigned_to/>
+        <assignment_group/>
+        <business_duration/>
+        <business_service/>
+        <calendar_duration/>
+        <close_notes/>
+        <closed_at/>
+        <closed_by/>
+        <cmdb_ci/>
+        <comments/>
+        <comments_and_work_notes/>
+        <company/>
+        <contact_type/>
+        <contract/>
+        <correlation_display/>
+        <correlation_id/>
+        <delivery_plan/>
+        <delivery_task/>
+        <description/>
+        <due_date/>
+        <escalation>0</escalation>
+        <expected_start/>
+        <follow_up/>
+        <group_list/>
+        <impact>3</impact>
+        <knowledge>false</knowledge>
+        <location/>
+        <made_sla>true</made_sla>
+        <number>TASK0024372</number>
+        <opened_at>2018-06-27 00:33:59</opened_at>
+        <opened_by display_value="Aleck Lin">f615d7f4dbb1b200e99852f4ce961943</opened_by>
+        <order/>
+        <parent/>
+        <pov_task_template display_value="Service Mapping">21e0a737dbfad3407b7990b6db9619ca</pov_task_template>
+        <priority>4</priority>
+        <reassignment_count>0</reassignment_count>
+        <rejection_goto/>
+        <service_offering/>
+        <short_description>Set up MID server</short_description>
+        <skills/>
+        <sla_due/>
+        <state>1</state>
+        <sys_class_name>x_snc_pov_now_template_pov_task</sys_class_name>
+        <sys_created_by>aleck.lin</sys_created_by>
+        <sys_created_on>2018-06-27 00:34:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1262bf37db3ed3407b7990b6db961917</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>aleck.lin</sys_updated_by>
+        <sys_updated_on>2018-06-27 00:34:10</sys_updated_on>
+        <time_worked/>
+        <upon_approval>proceed</upon_approval>
+        <upon_reject>cancel</upon_reject>
+        <urgency>3</urgency>
+        <user_input/>
+        <variables/>
+        <watch_list/>
+        <wf_activity/>
+        <work_end/>
+        <work_notes/>
+        <work_notes_list/>
+        <work_start/>
+    </x_snc_pov_now_template_pov_task>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>aleck.lin</sys_created_by>
+        <sys_created_on>2018-06-27 00:34:51</sys_created_on>
+        <sys_id>4f927377db3ed3407b7990b6db9619b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TASK0024372</sys_name>
+        <sys_package display_value="PoV_Now" source="x_snc_pov_now">7995d23f4ffe9f008c81efd18110c76c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PoV_Now">7995d23f4ffe9f008c81efd18110c76c</sys_scope>
+        <sys_update_name>sys_metadata_link_4f927377db3ed3407b7990b6db9619b5</sys_update_name>
+        <sys_updated_by>aleck.lin</sys_updated_by>
+        <sys_updated_on>2018-06-27 00:34:51</sys_updated_on>
+        <tablename>x_snc_pov_now_template_pov_task</tablename>
+    </sys_metadata_link>
+</record_update>
