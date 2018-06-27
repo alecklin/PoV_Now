@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_pov_now.PoVNowAjax</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>PoVNowAjax</name>
+        <script><![CDATA[var PoVNowAjax = Class.create();
+
+PoVNowAjax.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	ajaxFunction_addUserToGroup: function() {	
+		var liveGroupId = "0c4e93b3dbfad3407b7990b6db961968";
+		var lpid;
+		
+		var lgr = new GlideRecord("live_profile");
+		lgr.addQuery("table", "sys_user");
+		lgr.addQuery("document", gs.getUserID());
+		lgr.query();
+		if (lgr.next()) {
+			lpid = lgr.sys_id;		
+		} else { //If user doesn't exist, create it!
+			lgr.initialize();
+			lgr.table = "sys_user";
+			lgr.document = gs.getUserID();
+			lgr.name = gs.getUserDisplayName();
+			lgr.type = "user";
+			lpid = lgr.insert();
+		}		
+		
+		var gr = new GlideRecord("live_group_member");
+		gr.addQuery("group", liveGroupId);
+		gr.addQuery("member", lpid);
+		gr.query();
+		if (gr.next()) // If it's found, then all good... otherwise add the user to the group
+			return;
+		
+		gr.group = liveGroupId;
+		gr.member = lpid;
+		gr.insert();
+
+	},
+	
+
+	type: 'PoVNowAjax'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>aleck.lin</sys_created_by>
+        <sys_created_on>2018-06-27 01:16:17</sys_created_on>
+        <sys_id>15bb3ff3db7ed3407b7990b6db961925</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>PoVNowAjax</sys_name>
+        <sys_package display_value="PoV_Now" source="x_snc_pov_now">7995d23f4ffe9f008c81efd18110c76c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="PoV_Now">7995d23f4ffe9f008c81efd18110c76c</sys_scope>
+        <sys_update_name>sys_script_include_15bb3ff3db7ed3407b7990b6db961925</sys_update_name>
+        <sys_updated_by>aleck.lin</sys_updated_by>
+        <sys_updated_on>2018-06-27 01:41:31</sys_updated_on>
+    </sys_script_include>
+</record_update>
